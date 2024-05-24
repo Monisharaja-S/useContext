@@ -85,10 +85,6 @@ function CartCard() {
                       </div>
                       <hr />
                       <div className="bottom">
-                        {/* <div className="d-flex justify-content-between align-items-center">
-                          Original Price (1 item) :
-                          <p className="card-text">${e.price} </p>
-                        </div> */}
                         <div className="d-flex justify-content-between align-items-center">
                           Discount Amount :
                           <p className="card-text text-success">
@@ -107,12 +103,6 @@ function CartCard() {
                           <h5 className="card-text">${(e.price - discountPrice) * quantity}</h5>
                         </div>
                       </div>
-                      {/* <button
-                        type="button"
-                        className="btn btn-primary float-end my-3"
-                      >
-                        Proceed to pay
-                      </button> */}
                     </div>
                   </div>
                 </div>
